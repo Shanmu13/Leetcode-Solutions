@@ -7,6 +7,7 @@ You are given the root of a binary search tree (BST) and an integer val.Find the
 Example 1:
 Input: root = [4,2,7,1,3], val = 2
 Output: [2,1,3]
+
 Example 2:
 Input: root = [4,2,7,1,3], val = 5
 Output: []
@@ -18,9 +19,11 @@ Example 1:
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
 Example 2:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
+
 Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
@@ -31,9 +34,11 @@ Given an integer array nums, return true if any value appears at least twice in 
 Example 1:
 Input: nums = [1,2,3,1]
 Output: true
+
 Example 2:
 Input: nums = [1,2,3,4]
 Output: false
+
 Example 3:
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
@@ -45,10 +50,12 @@ Example 1:
 Input: s = "Hello World"
 Output: 5
 Explanation: The last word is "World" with length 5.
+
 Example 2:
 Input: s = "   fly me   to   the moon  "
 Output: 4
 Explanation: The last word is "moon" with length 4.
+
 Example 3:
 Input: s = "luffy is still joyboy"
 Output: 6
@@ -60,9 +67,11 @@ Given a sorted array of distinct integers and a target value, return the index i
 Example 1:
 Input: nums = [1,3,5,6], target = 5
 Output: 2
+
 Example 2:
 Input: nums = [1,3,5,6], target = 2
 Output: 1
+
 Example 3:
 Input: nums = [1,3,5,6], target = 7
 Output: 4
@@ -73,9 +82,11 @@ Given the roots of two binary trees p and q, write a function to check if they a
 Example 1:
 Input: p = [1,2,3], q = [1,2,3]
 Output: true
+
 Example 2:
 Input: p = [1,2], q = [1,null,2]
 Output: false
+
 Example 3:
 Input: p = [1,2,1], q = [1,1,2]
 Output: false
@@ -86,9 +97,11 @@ Given a signed 32-bit integer x, return x with its digits reversed. If reversing
 Example 1:
 Input: x = 123
 Output: 321
+
 Example 2:
 Input: x = -123
 Output: -321
+
 Example 3:
 Input: x = 120
 Output: 21
@@ -99,6 +112,7 @@ Given the roots of two binary trees root and subRoot, return true if there is a 
 Example 1:
 Input: root = [3,4,5,1,2], subRoot = [4,1,2]
 Output: true
+
 Example 2:
 Input: root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]
 Output: false
@@ -109,10 +123,12 @@ Given an input string s, reverse the order of the words.A word is defined as a s
 Example 1:
 Input: s = "the sky is blue"
 Output: "blue is sky the"
+
 Example 2:
 Input: s = "  hello world  "
 Output: "world hello"
 Explanation: Your reversed string should not contain leading or trailing spaces.
+
 Example 3:
 Input: s = "a good   example"
 Output: "example good a"
