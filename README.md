@@ -273,7 +273,7 @@ Example 3:
 Input: s = "LOVELY"
 Output: "lovely"
 
-412. Fizz Buzz
+# 412. Fizz Buzz
 Given an integer n, return a string array answer (1-indexed) where:
 answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
 answer[i] == "Fizz" if i is divisible by 3.
@@ -292,7 +292,7 @@ Example 3:
 Input: n = 15
 Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
 
-929. Unique Email Addresses
+# 929. Unique Email Addresses
 Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.For example, in "alice@leetcode.com", "alice" is the local name, and "leetcode.com" is the domain name.
 If you add periods '.' between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name. Note that this rule does not apply to domain names.For example, "alice.z@leetcode.com" and "alicez@leetcode.com" forward to the same email address.
 If you add a plus '+' in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered. Note that this rule does not apply to domain names.For example, "m.y+name@email.com" will be forwarded to "my@email.com".
@@ -307,7 +307,7 @@ Example 2:
 Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
 Output: 3
 
-2418. Sort the People
+# 2418. Sort the People
 You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.For each index i, names[i] and heights[i] denote the name and height of the ith person.Return names sorted in descending order by the people's heights.
 
 Example 1:
