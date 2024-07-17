@@ -258,4 +258,64 @@ Step 2) 4 is even; divide by 2 and obtain 2.
 Step 3) 2 is even; divide by 2 and obtain 1. 
 Step 4) 1 is odd; subtract 1 and obtain 0.
 
-# 
+# 709. To Lower Case
+Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+
+Example 1:
+Input: s = "Hello"
+Output: "hello"
+
+Example 2:
+Input: s = "here"
+Output: "here"
+
+Example 3:
+Input: s = "LOVELY"
+Output: "lovely"
+
+412. Fizz Buzz
+Given an integer n, return a string array answer (1-indexed) where:
+answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
+answer[i] == "Fizz" if i is divisible by 3.
+answer[i] == "Buzz" if i is divisible by 5.
+answer[i] == i (as a string) if none of the above conditions are true.
+ 
+Example 1:
+Input: n = 3
+Output: ["1","2","Fizz"]
+
+Example 2:
+Input: n = 5
+Output: ["1","2","Fizz","4","Buzz"]
+
+Example 3:
+Input: n = 15
+Output: ["1","2","Fizz","4","Buzz","Fizz","7","8","Fizz","Buzz","11","Fizz","13","14","FizzBuzz"]
+
+929. Unique Email Addresses
+Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.For example, in "alice@leetcode.com", "alice" is the local name, and "leetcode.com" is the domain name.
+If you add periods '.' between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name. Note that this rule does not apply to domain names.For example, "alice.z@leetcode.com" and "alicez@leetcode.com" forward to the same email address.
+If you add a plus '+' in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered. Note that this rule does not apply to domain names.For example, "m.y+name@email.com" will be forwarded to "my@email.com".
+It is possible to use both of these rules at the same time.Given an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.
+
+Example 1:
+Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+Output: 2
+Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+
+Example 2:
+Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
+Output: 3
+
+2418. Sort the People
+You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.For each index i, names[i] and heights[i] denote the name and height of the ith person.Return names sorted in descending order by the people's heights.
+
+Example 1:
+Input: names = ["Mary","John","Emma"], heights = [180,165,170]
+Output: ["Mary","Emma","John"]
+Explanation: Mary is the tallest, followed by Emma and John.
+
+Example 2:
+Input: names = ["Alice","Bob","Bob"], heights = [155,185,150]
+Output: ["Bob","Alice","Bob"]
+Explanation: The first Bob is the tallest, followed by Alice and the second Bob.
