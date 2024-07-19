@@ -343,3 +343,74 @@ The 2nd customer is the richest with a wealth of 10.
 Example 3:
 Input: accounts = [[2,8,7],[7,1,3],[1,9,5]]
 Output: 17
+
+# 1380. Lucky Numbers in a Matrix
+Given an m x n matrix of distinct numbers, return all lucky numbers in the matrix in any order.A lucky number is an element of the matrix such that it is the minimum element in its row and maximum in its column.
+
+Example 1:
+Input: matrix = [[3,7,8],[9,11,13],[15,16,17]]
+Output: [15]
+Explanation: 15 is the only lucky number since it is the minimum in its row and the maximum in its column.
+
+Example 2:
+Input: matrix = [[1,10,4,2],[9,3,8,7],[15,16,17,12]]
+Output: [12]
+Explanation: 12 is the only lucky number since it is the minimum in its row and the maximum in its column.
+
+Example 3:
+Input: matrix = [[7,8],[1,2]]
+Output: [7]
+Explanation: 7 is the only lucky number since it is the minimum in its row and the maximum in its column.
+
+# 771. Jewels and Stones
+You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.Letters are case sensitive, so "a" is considered a different type of stone from "A".
+
+Example 1:
+Input: jewels = "aA", stones = "aAAbbbb"
+Output: 3
+
+Example 2:
+Input: jewels = "z", stones = "ZZ"
+Output: 0
+
+# 70. Climbing Stairs
+You are climbing a staircase. It takes n steps to reach the top.Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+
+Example 1:
+Input: n = 2
+Output: 2
+Explanation: There are two ways to climb to the top.
+1. 1 step + 1 step
+2. 2 steps
+
+Example 2:
+Input: n = 3
+Output: 3
+Explanation: There are three ways to climb to the top.
+1. 1 step + 1 step + 1 step
+2. 1 step + 2 steps
+3. 2 steps + 1 step
+
+# 367. Valid Perfect Square
+Given a positive integer num, return true if num is a perfect square or false otherwise.A perfect square is an integer that is the square of an integer. In other words, it is the product of some integer with itself.You must not use any built-in library function, such as sqrt.
+
+Example 1:
+Input: num = 16
+Output: true
+Explanation: We return true because 4 * 4 = 16 and 4 is an integer.
+
+Example 2:
+Input: num = 14
+Output: false
+Explanation: We return false because 3.742 * 3.742 = 14 and 3.742 is not an integer.
+
+# 1037. Valid Boomerang
+Given an array points where points[i] = [xi, yi] represents a point on the X-Y plane, return true if these points are a boomerang.A boomerang is a set of three points that are all distinct and not in a straight line.
+
+Example 1:
+Input: points = [[1,1],[2,3],[3,2]]
+Output: true
+
+Example 2:
+Input: points = [[1,1],[2,2],[3,3]]
+Output: false
